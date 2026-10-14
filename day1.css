@@ -1,0 +1,61 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Base Styles for Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+/* Individual Styles for Each Heading Level */
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2980b9;
+}
+
+h3 {
+    font-size: 1.75rem;
+    color: #16a085;
+}
+
+h4 {
+    font-size: 1.4rem;
+    color: #d35400;
+}
+
+h5 {
+    font-size: 1.15rem;
+    color: #8e44ad;
+}
+
+h6 {
+    font-size: 1rem;
+    color: #7f8c8d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
