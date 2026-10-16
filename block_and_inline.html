@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Block and Inline Elements</title>
+    <style>
+        h3{
+            color:brown;
+            text-align:left;
+        
+        }
+        .block-box {
+            background-color: lightpink;
+            border: 2px solid rosybrown;
+            padding: 10px;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .inline-box {
+            background-color: lightgreen;
+            border: 2px solid darkgreen;
+            padding: 5px 10px;
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Block-Level and Inline Element Demonstration</h3>
+
+    <!-- Block element -->
+    <div class="block-box">
+        This is a <strong>Block-Level</strong> element. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, odit!
+    </div>
+    <div class="block-box">
+        This is another block-level element stacked below the first one. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, veritatis.
+    </div>
+
+    <br>
+
+    <p>
+        This is inline elements.They are
+        <span class="inline-box">Inline Element 1</span> and an 
+        <span class="inline-box">Inline Element 2</span> embedded right beside each other without breaking lines.
+    </p>
+
+</body>
+</html>
